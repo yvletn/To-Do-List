@@ -7,13 +7,11 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #e5c706, #2f00ff, #e5c706);
     padding: 10px;
 }
 .todo-app{
     width: 100%;
     max-width: 540px;
-    background: linear-gradient(13deg, #c01b58, #00ffd0, #c01b58, #00ffd0);;
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
@@ -98,3 +96,66 @@ ul li span{
 ul li span:hover{
     background: #fff;
 }
+
+/* Background Options Button */
+.flexrow-container {
+    flex-direction: row;
+    margin-right: 7%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.theme-selector {
+    border: 1px solid #d1dae3;
+    border-radius: 100%;
+    height: 35px;
+    margin: 0 8px;
+    width: 35px;
+}
+
+.theme-selector:hover { 
+    box-shadow: white 0 0 8px;
+    cursor: pointer;
+}
+
+.theme-selector:active {
+    transform: scale(0.95);
+}
+
+.standard-theme {
+    background-image: linear-gradient(100deg, #a54e7b, #c9a42a, #a54e7b);
+}
+
+.light-theme {
+    background-image: linear-gradient(100deg, #83caed, #ffffff, #83caed);
+}
+
+.darker-theme {
+    background-image: linear-gradient(30deg, #114837, #1f1137, #114837, #1f1137);
+}
+/* End Background Options Button */
+
+/* Background Options */
+.standard {
+    background-image: linear-gradient(100deg, #a54e7b, #c9a42a, #a54e7b);
+    color: #000000;
+    transition: 0.3s linear;
+    overflow: hidden;
+}
+
+.light {
+    background-image: linear-gradient(100deg, #83caed, #ffffff, #83caed);
+    color: #1a150e;
+    transition: 0.3s linear;
+    overflow: hidden;
+}
+
+.darker {
+    background-image: linear-gradient(30deg, #114837, #1f1137, #114837, #1f1137);
+    color: white;
+    transition: 0.3s linear;
+    overflow: hidden;
+}
+/* End Background Options */
+
